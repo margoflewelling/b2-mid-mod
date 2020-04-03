@@ -13,7 +13,7 @@ describe Park, type: :model do
   describe "model methods" do
     it "#average_thrill_rating" do
       park_1 = Park.create(name: "Disney",
-                            admission_price: "50")
+                            admission_price: 50)
       ride_1 = park_1.rides.create(name: "Upside Down",
                             thrill_rating: 7)
       ride_2 = park_1.rides.create(name: "Tea Cups",

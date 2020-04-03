@@ -16,7 +16,7 @@ describe Mechanic, type: :model do
       mechanic_1 = Mechanic.create(name: "Frank",
                                     years_experience: "12")
       park_1 = Park.create(name: "Disney",
-                            admission_price: "50")
+                            admission_price: 50)
       ride_1 = park_1.rides.create(name: "Upside Down",
                             thrill_rating: 7)
       ride_2 = park_1.rides.create(name: "Tea Cups",

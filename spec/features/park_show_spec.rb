@@ -10,9 +10,9 @@ RSpec.describe "Parks a user", type: :feature do
                                   years_experience: "2")
 
     @park_1 = Park.create(name: "Disney",
-                          admission_price: "50")
+                          admission_price: 50)
     @park_2 = Park.create(name: "Harry Potter",
-                          admission_price: "70")
+                          admission_price: 70)
 
     @ride_1 = @park_1.rides.create(name: "Upside Down",
                           thrill_rating: 7)
