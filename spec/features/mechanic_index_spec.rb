@@ -9,7 +9,6 @@ RSpec.describe "Mechanics A user", type: :feature do
     @mechanic_3 = Mechanic.create(name: "Bob",
                                   years_experience: "2")
 
-
   end
 
   it "can see list of all mechanics" do
