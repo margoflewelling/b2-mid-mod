@@ -14,10 +14,10 @@ RSpec.describe "Mechanics A user", type: :feature do
 
   it "can see list of all mechanics" do
     visit "/mechanics"
-    expect_page.to have_content("All Mechanics")
-    expect_page.to have_content("#{@mechanic_1.name} - #{@mechanic_1.years_experience} years of experience")
-    expect_page.to have_content("#{@mechanic_2.name} - #{@mechanic_2.years_experience} years of experience")
-    expect_page.to have_content("#{@mechanic_3.name} - #{@mechanic_3.years_experience} years of experience")
+    expect(page).to have_content("All Mechanics")
+    expect(page).to have_content("#{@mechanic_1.name} - #{@mechanic_1.years_experience} years of experience")
+    expect(page).to have_content("#{@mechanic_2.name} - #{@mechanic_2.years_experience} years of experience")
+    expect(page).to have_content("#{@mechanic_3.name} - #{@mechanic_3.years_experience} years of experience")
     end
 
   end

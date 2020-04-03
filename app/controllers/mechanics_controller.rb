@@ -1,3 +1,7 @@
 class MechanicsController < ApplicationController
 
-end 
+  def index
+    @mechanics = Mechanic.all
+  end
+
+end
