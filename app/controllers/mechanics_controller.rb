@@ -19,7 +19,6 @@ class MechanicsController < ApplicationController
                         mechanic_id: @mechanic.id)
     end
     redirect_to "/mechanics/#{@mechanic.id}"
-
   end
 
 end
