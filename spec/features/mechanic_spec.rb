@@ -44,9 +44,14 @@ RSpec.describe "Mechanics A user", type: :feature do
       fill_in('ride', :with => "#{@ride_2.id}")
       click_on('Submit')
       expect(page).to have_current_path("/mechanics/#{@mechanic_1.id}")
-      save_and_open_page
       expect(page).to have_content(@ride_2.name)
     end
 
+    it "can not add ride it's already working on" do
+      visit "/mechanics/#{@mechanic_1.id}"
+      fill_in('ride', :with => "#{@ride_1.id}")
+      click_on('Submit')
+      expect(page).to have_content("#{@mechanic_1.name}is already working on #{@ride_1.name}")
+    end
 
   end
