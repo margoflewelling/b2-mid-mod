@@ -14,7 +14,7 @@
       <img src="./assets/0.11.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-04-03T11:16:53-06:00">2020-04-03T11:16:53-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-04-03T11:20:31-06:00">2020-04-03T11:20:31-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.12
+         1.13
        </span>
     </span> hits/line
     )
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>139</b> relevant lines,
-    <span class="green"><b>139</b> lines covered</span> and
+    <b>141</b> relevant lines,
+    <span class="green"><b>141</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -83,11 +83,11 @@
         <tr class="t-file">
           <td class="strong t-file__name"><a href="#179927b3d578e7d4c64acdaef96647b005e73906" class="src_link" title="app/controllers/mechanics_controller.rb">app/controllers/mechanics_controller.rb</a></td>
           <td class="green strong t-file__coverage">100.0 %</td>
-          <td>16</td>
-          <td>8</td>
-          <td>8</td>
+          <td>20</td>
+          <td>10</td>
+          <td>10</td>
           <td>0</td>
-          <td>1.0</td>
+          <td>1.1</td>
           
         </tr>
       
@@ -449,8 +449,8 @@
     
 
     <div class="t-line-summary">
-      <b>8</b> relevant lines.
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>10</b> relevant lines.
+      <span class="green"><b>10</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -539,8 +539,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="8">
+            <span class="hits">2</span>
             
 
             
@@ -605,13 +605,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="14">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">    MechanicRide.create(ride_id: params[:ride],</code>
           </li>
         </div>
       
@@ -622,12 +622,56 @@
 
             
 
+            <code class="ruby">                        mechanic_id: @mechanic.id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  redirect_to &quot;/mechanics/#{@mechanic.id}&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="16">
+          <li class="never" data-hits="" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
             
             
 

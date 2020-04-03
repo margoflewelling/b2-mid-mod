@@ -41,10 +41,10 @@ RSpec.describe "Mechanics A user", type: :feature do
       expect(page).to have_content(@ride_1.name)
       expect(page).to have_content(@ride_3.name)
       expect(page).to_not have_content(@ride_2.name)
-
       fill_in('ride', :with => "#{@ride_2.id}")
       click_on('Submit')
       expect(page).to have_current_path("/mechanics/#{@mechanic_1.id}")
+      save_and_open_page
       expect(page).to have_content(@ride_2.name)
     end
 
