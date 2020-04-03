@@ -33,6 +33,5 @@ RSpec.describe "Parks a user", type: :feature do
       expect(page).to_not have_content(@ride_3.name)
     end
     expect(page).to have_content("Average Thrill Rating of Rides: 5.0/10")
-    save_and_open_page
     end
 end

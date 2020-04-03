@@ -208,6 +208,9 @@
           null,
           1,
           1,
+          1,
+          null,
+          1,
           null
         ]
       },
@@ -254,7 +257,6 @@
           1,
           null,
           1,
-          1,
           null,
           null
         ]
@@ -274,6 +276,26 @@
           2,
           null,
           null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -283,6 +305,12 @@
           1,
           1,
           1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
           null
         ]
       },
@@ -367,10 +395,29 @@
           null
         ]
       },
+      "/Users/owner/turing/mod2/midmod/b2-mid-mod/app/models/mechanic_ride.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/owner/turing/mod2/midmod/b2-mid-mod/app/controllers/mechanics_controller.rb": {
         "lines": [
           1,
           null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
           1,
           1,
           null,
@@ -395,18 +442,8 @@
           null,
           null
         ]
-      },
-      "/Users/owner/turing/mod2/midmod/b2-mid-mod/app/models/mechanic_ride.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1585932057
+    "timestamp": 1585934213
   }
 }
